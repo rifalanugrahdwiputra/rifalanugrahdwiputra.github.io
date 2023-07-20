@@ -1,0 +1,359 @@
+/* font roboto */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700&display=swap');
+/* font lobster */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+.navbar {
+    width: 91%;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+    background-color: whitesmoke;
+}
+
+.navbar p {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    position: absolute;
+    right: 9%;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #828b8e;
+}
+
+.nav-link a:hover {
+    color: black;
+}
+
+.text-hero {
+    position: absolute;
+    left: 9%;
+    top: 130px;
+    line-height: 0px;
+}
+
+.text-hero p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.text-hero p:nth-child(2) {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+.text-hero p:nth-child(3) {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+    font-weight: 100;
+}
+
+.btn-here {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #2d3436;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.btn-here:hover {
+    background-color: #2d3436;
+    color: whitesmoke;
+}
+
+.btn-download {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2d3436;
+    font-size: 11px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #2d3436;
+}
+
+.model {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 400px;
+}
+
+.about {
+    width: 80%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.about img {
+    height: 250px;
+    margin-top: 30px;
+}
+
+.text-about p:first-child {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-about-here {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn-about-download {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2d3436;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-about-here:hover {
+    background-color: #2d3436;
+    color: whitesmoke;
+}
+
+.btn-about-download:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #2d3436;
+}
+
+.text-skill {
+    margin: 50px 0 0 12%;
+    line-height: 0px;
+    width: 450px;
+}
+
+.text-skill p:first-child {
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.text-skill p:nth-child(2) {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.text-skill p:nth-child(3) {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.card-skill {
+    display: flex;
+    width: 78%;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+
+
+.skill-1,
+.skill-2,
+.skill-3 {
+    width: 250px;
+    height: 320px;
+    background-color: #2d3436;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.skill-1 div,
+.skill-2 div,
+.skill-3 div {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.skill-1 p:first-of-type,
+.skill-2 p:first-of-type,
+.skill-3 p:first-of-type {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+.skill-1 p:nth-last-child(2),
+.skill-2 p:nth-last-child(2),
+.skill-3 p:nth-last-child(2) {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.skill-1 button,
+.skill-2 button,
+.skill-3 button {
+    margin-top: 10px;
+    width: 90px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 12px;
+}
+
+.skill-1 button:hover,
+.skill-2 button:hover,
+.skill-3 button:hover {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.contact {
+    width: 100%;
+    height: 250px;
+    background-color: #2d3436;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact p {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 13px;
+    line-height: 0px;
+}
+
+.garis {
+    width: 390px;
+    height: 5px;
+    border-bottom: 2px solid #535c5f;
+    margin-bottom: 18px;
+}
+
+.contact button {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #dfe6e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer p:nth-child(2) {
+    width: 700px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.list-icon {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.list-icon div {
+    width: 40px;
+    height: 40px;
+    background-color: #b2bec3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    cursor: pointer;
+}
